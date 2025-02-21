@@ -10,7 +10,7 @@ const config: StorybookConfig = {
     "@storybook/addon-actions",
     "@storybook/addon-links"
   ],
-  framework: {
+  renderer: {
     name: "@storybook/react-webpack5",
     options: {
       builder: {
